@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.form-container {
+    font-family: montserrat, sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqD42ogNL_K2n2dkVsG26XUqoHCeyYOOx0hg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0c5f79;
+}
+
+.form-bg {
+    box-shadow: 0 10px 10px 10px rgba(121, 121, 121, .65);
+    padding: 2.5rem 1.25rem 2rem;
+    border-radius: 16px;
+    background: #fff;
+}
+.title {
+    margin-bottom: .85rem;
+    text-align: center;
+}
+.form-tag {
+    margin: 3px;
+    font-size: 1.2rem;
+
+}
+.product-input {
+    width: 260px;
+    padding: .6rem;
+    margin: 0;
+    border: 1.2px solid #0c5f79;
+    outline: none;
+}
+.submit-btn {
+    width: 100%;
+    padding: .8rem;
+    background: #4285f4;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
